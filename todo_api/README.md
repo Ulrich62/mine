@@ -1,7 +1,10 @@
 #Models
+
     1-Users
     2-Tasks
+    
 #Models attributes
+
     1-Users
       -firstName
       -lastName
@@ -20,6 +23,7 @@
      *User has many tasks
  
  #EndPoints
+ 
       *Tasks
           // create task
           post('/');
@@ -40,6 +44,7 @@
           get('/');
           
       *User
+      
         // create user route
 
         post('/signup')
@@ -58,6 +63,7 @@
         get('/');
         
   #Api_Link
+  
         https://node-api-digit.herokuapp.com
 
  
